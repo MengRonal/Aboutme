@@ -295,6 +295,9 @@ html {
   .page_three {
     overflow: hidden;
   }
+  #navbarScroll {
+    margin-left: 0px;
+  }
   .content {
     margin-top: 20px;
   }
@@ -380,7 +383,7 @@ html {
     margin-left: 100px;
   }
   .page_two > .container > .content_right > div > h1 {
-    margin: 0px 0px 30px 130px;
+    margin: 0px 0px 30px 110px;
     font-size: 25px;
   }
 
@@ -412,9 +415,12 @@ html {
     margin: 30px 0px 0px 0;
   }
   .page_two > .container > .content_right > .content_botton {
-    margin-left: 90px;
+    margin-left: 95px;
+  }
+  .page_two > .container > .content_right > .content_botton > h2 {
+    font-size: 19px;
   }
   .page_two > .container > .content_right > .content_botton > a {
-    margin-left: 30px;
+    margin-left: 10px;
   }
 }

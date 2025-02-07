@@ -23,7 +23,7 @@ html {
   margin-left: 300px;
 }
 .page_one {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   /* overflow: hidden; */
 }
@@ -175,9 +175,9 @@ html {
 }
 
 /* dataskill */
-.page_three {
+/* .page_three {
   height: 100vh;
-}
+} */
 .page_three > .container > .content_bottom > .Skill > h1 {
   margin: 180px 0 0 0;
   text-align: center;
@@ -215,6 +215,33 @@ html {
     rgba(252, 103, 103, 1) 100%
   );
 }
+.page_three > .container > .content_bottom >.leaning{
+  color: #fff;
+}
+.page_three > .container > .content_bottom >.leaning >h3{
+  margin: 40px 0 0 0;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.page_three > .container > .content_bottom >.leaning >.subject >.frontend,.backend{
+  margin: 0 0 0 30px;
+}
+.page_three > .container > .content_bottom >.leaning >.subject >.frontend >p{
+  color: grey;
+  padding: 0 0 0 20px;
+}
+.page_three > .container > .content_bottom >.leaning >.subject >.backend >p{
+  color: grey;
+  padding: 0 0 0 20px;
+}
+.page_three > .container > .content_bottom >.leaning >i{
+  font-size: 7px;
+  padding: 0 0 0 20px;
+}
 .page_three > .container > .content_bottom > .Skill > li > .bar > .html {
   width: 95%;
   animation: html 3s;
@@ -224,12 +251,16 @@ html {
   animation: css 3s;
 }
 .page_three > .container > .content_bottom > .Skill > li > .bar > .php {
-  width: 75%;
+  width: 50%;
   animation: php 3s;
 }
 .page_three > .container > .content_bottom > .Skill > li > .bar > .javarscript {
   width: 50%;
   animation: javarscript 3s;
+}
+.page_three > .container > .content_bottom > .Skill > li > .bar > .bootstrap {
+  width: 100%;
+  animation: bootstrap 3s;
 }
 @keyframes html {
   0% {
@@ -247,12 +278,20 @@ html {
     width: 90%;
   }
 }
+@keyframes bootstrap {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
 @keyframes php {
   0% {
     width: 0;
   }
   100% {
-    width: 75%;
+    width: 50%;
   }
 }
 @keyframes javarscript {
@@ -355,6 +394,10 @@ html {
   .page_two > .container > .content_right > div > h1 {
     margin: 0px 0px 30px 130px;
   }
+  /* .page_three > .container > .content_bottom >.leaning >.subject{
+    display: flex;
+    justify-content: space-between;
+  } */
 }
 /* screen phone */
 @media only screen and (max-width: 428px) {
